@@ -1,0 +1,9 @@
+2024/03/11-16:08:02.577147300-1710162482577-10.10.1.1-amohammed-student-login.html-Login Success
+2024/03/11-16:08:06.366449300-1710162486366-30.10.1.1-anonymous-NA-login.html-Login Failed
+2024/03/11-16:08:08.820472500-1710162488820-20.10.1.1-anonymous-NA-login.html-Login Failed
+2024/03/11-16:08:11.574980400-1710162491574-20.10.1.1-anonymous-NA-login.html-Login Failed
+2024/03/11-16:08:14.265329100-1710162494265-10.10.1.1-amohammed-student-register.html-register CPCS405
+2024/03/11-16:08:17.003706100-1710162497003-30.10.1.1-anonymous-NA-login.html-Login Failed
+2024/03/11-16:08:18.058884900-1710162498058-20.10.1.1-asalem-student-login.html-Login Success
+2024/03/11-16:08:20.662789300-1710162500662-30.10.1.1-anonymous-NA-login.html-Login Failed
+2024/03/11-16:08:24.302947200-1710162504302-10.10.1.1-amohammed-student-transcript.html-

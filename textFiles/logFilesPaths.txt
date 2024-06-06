@@ -1,0 +1,3 @@
+C:\Users\mhd66\Desktop\Semester_2\CPCS-405\CPCS405_assignment1_2148844\textFiles\logRecord1.txt
+C:\Users\mhd66\Desktop\Semester_2\CPCS-405\CPCS405_assignment1_2148844\textFiles\logRecord2.txt
+C:\Users\mhd66\Desktop\Semester_2\CPCS-405\CPCS405_assignment1_2148844\textFiles\logRecord3.txt

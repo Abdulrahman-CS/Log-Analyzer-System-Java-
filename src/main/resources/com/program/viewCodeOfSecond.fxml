@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.program.ControlOFPage2">
+   <children>
+      <Label layoutX="9.0" layoutY="23.0" text="Enter Commad:" AnchorPane.leftAnchor="9.0" AnchorPane.topAnchor="23.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="commandText" layoutX="111.0" layoutY="20.0" prefHeight="17.0" prefWidth="154.0" AnchorPane.leftAnchor="111.0" AnchorPane.topAnchor="20.0" />
+      <Button layoutX="273.0" layoutY="20.0" mnemonicParsing="false" onAction="#filter" text="Filter" textFill="RED" AnchorPane.leftAnchor="273.0" AnchorPane.topAnchor="20.0" />
+      <Button layoutX="348.0" layoutY="20.0" mnemonicParsing="false" onAction="#save" text="Save" AnchorPane.topAnchor="20.0" />
+      <Button layoutX="402.0" layoutY="20.0" mnemonicParsing="false" onAction="#load" text="Load" AnchorPane.topAnchor="20.0" />
+      <Button layoutX="514.0" layoutY="20.0" mnemonicParsing="false" onAction="#back" text="Back" AnchorPane.topAnchor="20.0" />
+      <Button layoutX="457.0" layoutY="20.0" mnemonicParsing="false" onAction="#reset" text="Reset" AnchorPane.topAnchor="20.0" />
+      <Label layoutX="584.0" layoutY="23.0" text="Sort By (dropdown):" AnchorPane.rightAnchor="142.66666666666669" AnchorPane.topAnchor="23.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choicesOfSort" layoutX="715.0" layoutY="21.0" prefHeight="20.0" prefWidth="114.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="21.0" />
+      <ListView fx:id="listViewOfRecord" layoutX="9.0" layoutY="52.0" prefHeight="391.0" prefWidth="831.0" AnchorPane.bottomAnchor="6.666666666666686" AnchorPane.leftAnchor="9.333333333333258" AnchorPane.rightAnchor="9.666666666666629" AnchorPane.topAnchor="52.0" />
+      <Label fx:id="msgErrorOfSecond" contentDisplay="CENTER" layoutX="9.0" layoutY="5.0" prefHeight="0.0" prefWidth="385.0" text="Error! Try again" textAlignment="CENTER" textFill="RED" visible="false" />
+   </children>
+</AnchorPane>
